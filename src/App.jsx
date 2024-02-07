@@ -17,14 +17,14 @@ const App = () => {
   };
 
   const handleYesClick = () => {
-    toast.success('Yay! You said yes! 💖');
+    toast.success("Yay! You said yes! 💖 We're just a message away");
   };
 
   return (
     <div className="relative w-screen h-screen bg-pink-200">
       <div className="flex pt-[65%]  justify-center items-center md:pt-[21%] text-3xl md:text-7xl font-bold">
         <p className="">
-          Will You Be My Valentine?🥺          
+          Will You Be My Valentine?          
         </p>
       </div>
 
