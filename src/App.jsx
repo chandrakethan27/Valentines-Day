@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
-  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState({ x: 150, y: 550 });
   const [buttonText, setButtonText] = useState("No!");
   const buttonData = ["Not Now", "Maybe Later", "Sorry", "Next Time", "Thanks, but No", "Not Today", "You Sure?"];
 
@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const handleYesClick = () => {
-    toast.success("Yay! You said yes! 💖 We're just a message away");
+    toast.success("Yay! You said yes! 💖 I'm just a message away");
   };
 
   return (
