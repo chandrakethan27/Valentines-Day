@@ -17,7 +17,7 @@ const App = () => {
   };
 
   const handleYesClick = () => {
-    toast.success("Yay! You said yes! 💖 I'm just a message away");
+    toast.success("I knew you would say yes! 😂 💖");
   };
 
   return (
@@ -49,7 +49,6 @@ const App = () => {
         position="top-center"
         autoClose={3000}
         hideProgressBar
-        newestOnTop={false}
         closeOnClick
         rtl={false}
         pauseOnFocusLoss
